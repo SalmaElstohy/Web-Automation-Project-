@@ -6,7 +6,7 @@ This is a test automation framework built to handle functional, UI, and regressi
 
 ## How It's Built
 
-Instead of jamming everything into one place, I split the project up to keep it clean:
+Instead of jamming everything into one place, we split the project up to keep it clean:
 *   **Page Object Model (POM):** All the page elements and UI actions live in their own classes. The actual test scripts just call these actions, which makes updating tests much easier if a locator changes.
 *   **Explicit Waits:** To fix the usual timing issues and flakiness with web apps, the framework uses explicit waits uniformly rather than hardcoded sleeps.
 *   **Test Base:** Driver initialization, configuration properties, and cleanup are managed in a central base class so individual tests don't have to handle setup logic.
