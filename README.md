@@ -1,4 +1,4 @@
-# E-Commerce Automation Project
+# OpenCart Automation Project
 
 This is a test automation framework built to handle functional, UI, and regression testing for an e-commerce platform. The goal was to build something stable and easy to maintain, so it uses standard design patterns to keep the tests from breaking whenever the UI updates.
 
