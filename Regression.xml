@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+
+    <test name="Authentication and Account Management Tests">
+        <classes>
+            <class name="tests.RegisterTest" />
+            <class name="tests.LoginTest" />
+            <class name="tests.ForgotPassTest" />
+        </classes>
+    </test>
+
+    <test name="Product Browsing and Search Tests">
+        <classes>
+            <class name="tests.HomeTest" />
+            <class name="tests.SearchResultTest" />
+            <class name="tests.ProductDetailTest" />
+            <class name="tests.CompareTest" />
+            <class name="tests.WishlistTest" />
+        </classes>
+    </test>
+
+    <test name="Cart and Checkout Tests">
+        <classes>
+            <class name="tests.CartTest" />
+            <class name="tests.CheckoutTest" />
+        </classes>
+    </test>
+
+</suite>
